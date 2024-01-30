@@ -1,0 +1,89 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.5em;
+}
+
+.btnArea {
+    width: 100%;
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnArea a {
+    padding: 0.5em 0.6em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btnArea button {
+    padding: 0.5em 0.6em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btnArea button:hover {
+    background-color: #949494;
+}
+
+.container a:hover {
+    background-color: #949494;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.title h1 span {
+    font-size: 0.75em;
+    color: #949494;
+}
+
+.title h3 {
+    font-size: 0.98em;
+    margin-bottom: 0.5em;
+    /* color: #464545; */
+    color: #949494;
+    text-transform: capitalize;
+}
+
+.title p {
+    font-size: 0.90em;
+    margin-bottom: 1em;
+    color: #949494;
+}
+
+.title p span {
+    margin-left: 2em;
+}
+
+.news_text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+    margin: 1em 2em;
+}
+
+.news_text p {
+    text-align: justify;
+    letter-spacing: 1px;
+    white-space: pre-wrap;
+}

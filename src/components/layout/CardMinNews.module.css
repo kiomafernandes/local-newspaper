@@ -1,0 +1,56 @@
+.card_container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0.75em 0;
+}
+
+.card_container h3 a {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.card_container h3 a:hover {
+    color: #464545;
+}
+
+.card_container span a {
+    color: #949494;
+    font-size: 0.75em;
+}
+
+.card_container span a:hover {
+    color: #949494;
+    text-decoration: underline;
+}
+
+.card_container p {
+    font-style: italic;
+    color: #949494;
+    font-size: 0.9em;
+}
+
+.card_container p q {
+    font-size: 0.9em;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.4em 0;
+}
+
+.buttons a {
+    padding: 0.5em 0.6em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.buttons a:hover {
+    background-color: #949494;
+}

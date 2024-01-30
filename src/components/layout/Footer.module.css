@@ -1,0 +1,99 @@
+.footer_container{
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.footer h3 {
+    margin: 0 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer_lists {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    border-right: 1px solid #333;
+
+}
+
+.footer_lists ul {
+    margin-inline: 2.5em;
+}
+
+.footer_lists ul li {
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+}
+
+.footer_lists ul li:hover {
+    font-weight: bold;
+}
+
+.footer_social {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_social ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer_social ul li:hover {
+    color: #333;
+}
+
+.copy_right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.copy_right p {
+    width: 30%;
+    margin: 1em;
+    font-size: 0.7em;
+}
+
+.copy_right p span {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copy_right ul {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.copy_right ul li {
+    margin-inline: 2em;
+    color: #333;
+    list-style: none;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+.copy_right ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.copy_right ul li:hover {
+    text-decoration:underline;
+
+}

@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em
+}
+
+.title a {
+    padding: 0.5em 0.6em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.title a:hover {
+    background-color: #949494;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form input {
+    width: 100%;
+    border-radius: 5px;
+}
